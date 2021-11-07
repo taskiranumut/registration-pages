@@ -10,8 +10,11 @@ export default {
 </script>
 
 <template>
-  <div>
-    <h1>Sign In Page</h1>
-    <SignInForm />
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <SignInForm />
+      </div>
+    </div>
   </div>
 </template>
