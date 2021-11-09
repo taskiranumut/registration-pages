@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="container container-wrapper">
+  <div class="container signin-container-wrapper">
     <div class="row">
       <div class="col">
         <SignInForm />

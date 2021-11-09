@@ -5,24 +5,22 @@
 }
 
 /* SignInPage */
-.container-wrapper {
-  padding-right: 0px;
-  padding-left: 0px;
+.signin-container-wrapper {
+  padding: 0 0 48px 0;
   border-right: 1px solid #eceef4;
   border-left: 1px solid #eceef4;
   max-width: 1080px;
   min-height: 100vh;
-  padding-bottom: 48px;
   position: relative;
 }
 
-.container-wrapper > .row {
+.signin-container-wrapper > .row {
   margin: auto;
   justify-content: center;
   padding-top: 96px;
 }
 
-.container-wrapper > .row > .col {
+.signin-container-wrapper > .row > .col {
   padding: 0;
   max-width: 540px;
 }
@@ -113,7 +111,7 @@ input[type="checkbox"]#signup-checkbox:checked {
     padding: 57px 16px 60px 16px;
   }
 
-  .container-wrapper > .row {
+  .signin-container-wrapper > .row {
     margin: auto;
     justify-content: center;
     padding-top: 0;
