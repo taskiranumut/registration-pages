@@ -61,7 +61,9 @@ input[type="checkbox"]:focus {
 }
 
 .form-label {
-  color: #1a1f36;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1b2037e6;
 }
 
 /* Privacy footer */
@@ -92,6 +94,8 @@ input[type="checkbox"]#signup-checkbox:checked {
   height: 46px;
   background-color: #635bff;
   color: #fff;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .form-btn:focus {
@@ -111,10 +115,14 @@ input[type="checkbox"]#signup-checkbox:checked {
 .signin-route-sec p {
   padding-left: 21px;
   color: #3c4257;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .signup-route-sec p {
   color: #3c4257;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .signup-route-sec p span,
@@ -129,7 +137,7 @@ input[type="checkbox"]#signup-checkbox:checked {
 }
 
 .signup-form-section {
-  padding: 57px 67px 22px 67px;
+  padding: 57px 67px 34px 67px;
 }
 
 .left-side-wrapper {
@@ -211,6 +219,8 @@ input[type="checkbox"]#signup-checkbox:checked {
   margin-bottom: 58px;
 }
 
-.title-color {
+.form-title {
   color: #3c4257;
+  font-size: 25px;
+  font-weight: 600;
 }

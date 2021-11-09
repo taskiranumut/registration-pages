@@ -16,5 +16,7 @@ footer p {
   margin-bottom: 23px;
   cursor: pointer;
   color: #697386;
+  font-size: 14px;
+  font-weight: 600;
 }
 </style>
