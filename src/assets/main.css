@@ -4,6 +4,29 @@
   box-sizing: border-box;
 }
 
+/* SignInPage */
+.container-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+  border-right: 1px solid #eceef4;
+  border-left: 1px solid #eceef4;
+  max-width: 1080px;
+  min-height: 100vh;
+  padding-bottom: 48px;
+  position: relative;
+}
+
+.container-wrapper > .row {
+  margin: auto;
+  justify-content: center;
+  padding-top: 96px;
+}
+
+.container-wrapper > .row > .col {
+  padding: 0;
+  max-width: 540px;
+}
+
 /* Form inputs */
 .form-control {
   border: 1px solid #dfe0e4;
@@ -21,12 +44,6 @@ input[type="checkbox"]:focus {
 .footer-position {
   position: absolute;
   bottom: 0;
-  width: 100%;
-}
-
-.content-wrapper {
-  position: relative;
-  min-height: 100vh;
 }
 
 /* Input checkboxes */
@@ -88,6 +105,19 @@ input[type="checkbox"]#signup-checkbox:checked {
 .form-wrapper {
   width: 540px;
   margin: auto;
+}
+
+/* Responsive */
+@media only screen and (max-width: 576px) {
+  .signin-form-section {
+    padding: 57px 16px 60px 16px;
+  }
+
+  .container-wrapper > .row {
+    margin: auto;
+    justify-content: center;
+    padding-top: 0;
+  }
 }
 
 /* Shared properties */

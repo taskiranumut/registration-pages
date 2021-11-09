@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <div class="form-wrapper">
+  <div>
     <section class="signin-form-section shadow">
       <form @submit="submitForm">
         <header class="mb-24">
@@ -33,10 +33,10 @@ export default {
         </div>
         <div class="mb-26">
           <div class="row">
-            <div class="col">
+            <div class="col-3">
               <label for="password" class="form-label">Password</label>
             </div>
-            <div class="col d-flex justify-content-end">
+            <div class="col-9 d-flex justify-content-end">
               <label class="form-label forgot-pass"
                 >Forgot your password?</label
               >
