@@ -12,23 +12,13 @@ export default {
 </script>
 
 <template>
-  <div
-    class="content-wrapper"
-    style="
-      width: 56.25%;
-      margin: auto;
-      border-right: 1px solid #eceef4;
-      border-left: 1px solid #eceef4;
-    "
-  >
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6" style="padding: 162px 80px 0 16px">
-          <SignUpLeftSideTexts />
-        </div>
-        <div class="col-sm-6 px-0 pb-0" style="padding-top: 56px">
-          <SignUpForm />
-        </div>
+  <div class="container signup-container-wrapper">
+    <div class="row">
+      <div class="col-xl-6 order-2 order-xl-1 left-side-wrapper">
+        <SignUpLeftSideTexts />
+      </div>
+      <div class="col-xl-6 order-1 order-xl-2 signup-wrapper">
+        <SignUpForm />
       </div>
     </div>
   </div>

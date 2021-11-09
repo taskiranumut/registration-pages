@@ -25,6 +25,28 @@
   max-width: 540px;
 }
 
+/* SignUpPage */
+.signup-container-wrapper {
+  padding: 0;
+  border-right: 1px solid #eceef4;
+  border-left: 1px solid #eceef4;
+  max-width: 1080px;
+  min-height: 100vh;
+}
+
+.signup-container-wrapper > .row {
+  margin: auto;
+  justify-content: center;
+}
+
+.signup-container-wrapper > .row > .col-xl-6 {
+  max-width: 540px;
+}
+
+.signup-wrapper {
+  padding: 56px 0 0 0;
+}
+
 /* Form inputs */
 .form-control {
   border: 1px solid #dfe0e4;
@@ -73,7 +95,7 @@ input[type="checkbox"]#signup-checkbox:checked {
 
 /* Sign in & sign up route sections */
 .signup-route-sec {
-  margin-top: 24px;
+  margin-top: 36px;
   text-align: center;
 }
 
@@ -97,16 +119,16 @@ input[type="checkbox"]#signup-checkbox:checked {
 }
 
 .signup-form-section {
-  padding: 57px 67px 34px 67px;
+  padding: 57px 67px 22px 67px;
 }
 
-.form-wrapper {
-  width: 540px;
-  margin: auto;
+.left-side-wrapper {
+  padding: 162px 80px 0 16px;
+  position: relative;
 }
 
 /* Responsive */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   .signin-form-section {
     padding: 57px 16px 60px 16px;
   }
@@ -115,6 +137,30 @@ input[type="checkbox"]#signup-checkbox:checked {
     margin: auto;
     justify-content: center;
     padding-top: 0;
+  }
+
+  .signup-form-section {
+    padding: 57px 16px 34px 16px;
+  }
+
+  .signup-wrapper {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .left-side-wrapper {
+    padding: 60px 16px 20px 16px;
+    min-height: 500px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .left-side-wrapper {
+    padding: 60px 16px 20px 16px;
+    min-height: 550px;
+    position: relative;
   }
 }
 
