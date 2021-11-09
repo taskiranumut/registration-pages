@@ -1,6 +1,11 @@
 <script>
+import PrivacyFooter from "@/components/PrivacyFooter";
+
 export default {
   name: "SignUpLeftSideTexts",
+  components: {
+    PrivacyFooter,
+  },
 };
 </script>
 
@@ -37,9 +42,7 @@ export default {
         diam nec, congue vehicula turpis.
       </p>
     </article>
-    <footer class="footer-position">
-      <p style="padding-left: 21px; margin-bottom: 23px">Privacy & terms</p>
-    </footer>
+    <PrivacyFooter />
   </div>
 </template>
 
@@ -53,8 +56,7 @@ article {
 }
 
 .icon {
-  width: 16px;
-  height: 16px;
+  font-size: 16px;
   color: #635bff;
   margin-right: 12px;
 }

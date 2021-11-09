@@ -3,3 +3,126 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Form inputs */
+.form-control {
+  border: 1px solid #dfe0e4;
+  height: 46px;
+}
+
+.form-control:focus,
+.select:focus,
+input[type="checkbox"]:focus {
+  box-shadow: none;
+  border: 1px solid #dfe0e4;
+}
+
+/* Privacy footer */
+.footer-position {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.content-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Input checkboxes */
+input[type="checkbox"] {
+  border: 1px solid #dfe0e4;
+  cursor: pointer;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
+
+input[type="checkbox"]#signin-checkbox:checked,
+input[type="checkbox"]#signup-checkbox:checked {
+  background-color: #635bff;
+}
+
+/* Form buttons */
+.form-btn,
+.form-btn:hover {
+  height: 46px;
+  background-color: #635bff;
+  color: #fff;
+}
+
+.form-btn:focus {
+  box-shadow: none;
+}
+
+/* Sign in & sign up route sections */
+.signup-route-sec {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.signin-route-sec {
+  margin-top: 28px;
+}
+
+.signin-route-sec p {
+  padding-left: 21px;
+}
+
+.signup-route-sec p span,
+.signin-route-sec p span {
+  color: #635bff;
+  cursor: pointer;
+}
+
+/* Sign in & Sign up form sections */
+.signin-form-section {
+  padding: 57px 67px 95px 67px;
+}
+
+.signup-form-section {
+  padding: 57px 67px 34px 67px;
+}
+
+.form-wrapper {
+  width: 540px;
+  margin: auto;
+}
+
+/* Shared properties */
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-26 {
+  margin-bottom: 26px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-34 {
+  margin-bottom: 34px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.mb-42 {
+  margin-bottom: 42px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.mb-58 {
+  margin-bottom: 58px;
+}

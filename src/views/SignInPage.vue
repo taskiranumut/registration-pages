@@ -10,10 +10,21 @@ export default {
 </script>
 
 <template>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col">
-        <SignInForm />
+  <div
+    class="content-wrapper"
+    style="
+      width: 56.25%;
+      margin: auto;
+      border-right: 1px solid #eceef4;
+      border-left: 1px solid #eceef4;
+      padding-top: 96px;
+    "
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm px-5">
+          <SignInForm />
+        </div>
       </div>
     </div>
   </div>
