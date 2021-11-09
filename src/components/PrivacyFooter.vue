@@ -15,5 +15,6 @@ footer p {
   padding-left: 21px;
   margin-bottom: 23px;
   cursor: pointer;
+  color: #697386;
 }
 </style>

@@ -25,7 +25,7 @@ export default {
     <section class="signin-form-section shadow">
       <form @submit="submitForm">
         <header class="mb-24">
-          <h3 class="m-0">Sign in to your account</h3>
+          <h3 class="m-0 title-color">Sign in to your account</h3>
         </header>
         <div class="mb-30">
           <label for="email" class="form-label">Email</label>
@@ -75,6 +75,10 @@ export default {
 .form-label {
   padding-left: 2px;
   margin-bottom: 10px;
+}
+
+.form-check-label {
+  color: #1a1f36;
 }
 
 .forgot-pass {

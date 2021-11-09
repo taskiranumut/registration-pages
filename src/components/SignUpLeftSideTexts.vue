@@ -14,7 +14,7 @@ export default {
     <article>
       <p>
         <span><i class="fas fa-check-circle icon"></i></span>
-        <strong>Lorem Ipsum</strong>
+        <strong class="title-color">Lorem Ipsum</strong>
       </p>
       <p class="p-text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin augue
@@ -24,7 +24,7 @@ export default {
     <article>
       <p>
         <span><i class="fas fa-check-circle icon"></i></span>
-        <strong>Maecenas egestas</strong>
+        <strong class="title-color">Maecenas egestas</strong>
       </p>
       <p class="p-text">
         Maecenas egestas orci mollis nibh pretium, sit amet lacinia mauris
@@ -34,7 +34,7 @@ export default {
     <article>
       <p>
         <span><i class="fas fa-check-circle icon"></i></span>
-        <strong>Suspendisse faucibus felis</strong>
+        <strong class="title-color">Suspendisse faucibus felis</strong>
       </p>
       <p class="p-text">
         Suspendisse faucibus felis id bibendum rhoncus. Phasellus neque metus,
@@ -63,5 +63,10 @@ article {
 
 .p-text {
   margin-left: 28px;
+  color: #3c4257;
+}
+
+.title-color {
+  color: #1a1f36;
 }
 </style>

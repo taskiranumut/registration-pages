@@ -60,6 +60,10 @@ input[type="checkbox"]:focus {
   border: 1px solid #dfe0e4;
 }
 
+.form-label {
+  color: #1a1f36;
+}
+
 /* Privacy footer */
 .footer-position {
   position: absolute;
@@ -79,6 +83,7 @@ input[type="checkbox"] {
 input[type="checkbox"]#signin-checkbox:checked,
 input[type="checkbox"]#signup-checkbox:checked {
   background-color: #635bff;
+  border: 1px solid #635bff;
 }
 
 /* Form buttons */
@@ -105,6 +110,11 @@ input[type="checkbox"]#signup-checkbox:checked {
 
 .signin-route-sec p {
   padding-left: 21px;
+  color: #3c4257;
+}
+
+.signup-route-sec p {
+  color: #3c4257;
 }
 
 .signup-route-sec p span,
@@ -199,4 +209,8 @@ input[type="checkbox"]#signup-checkbox:checked {
 
 .mb-58 {
   margin-bottom: 58px;
+}
+
+.title-color {
+  color: #3c4257;
 }

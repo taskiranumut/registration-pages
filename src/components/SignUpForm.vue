@@ -20,7 +20,7 @@ export default {
     <section class="signup-form-section shadow">
       <form @submit="createAccount">
         <header class="mb-26">
-          <h3>Create an account</h3>
+          <h3 class="title-color">Create an account</h3>
         </header>
         <div class="mb-32">
           <label for="email" class="form-label">Email</label>
@@ -82,6 +82,10 @@ export default {
 .form-label {
   padding-left: 2px;
   margin-bottom: 6px;
+}
+
+.form-check-label {
+  color: #7d8696;
 }
 
 .info-icon {
