@@ -95,7 +95,7 @@ export default {
 }
 
 .select-box .options-container.active {
-  max-height: 195px;
+  max-height: 260px;
   overflow-y: scroll;
   border: 1px solid #dddee2;
   border-radius: 0.25rem;
