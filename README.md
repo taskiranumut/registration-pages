@@ -4,8 +4,6 @@ Responsive UI was developed with the values obtained from `.png` design in the p
 
 [Font Awesome](https://fontawesome.com/) was used for icons and [flag-icons](https://github.com/lipis/flag-icons) was used for country flags.
 
-👉 [Project Demo](https://registration-pages.vercel.app/)
-
 ### Project setup
 
 1. Node.js must be installed.
